@@ -90,6 +90,6 @@
   </div>
  </div>
 
- <jsp:include page="/MyProjectFiles/UserLoginSignup/footer.jsp"></jsp:include>
+
 </body>
 </html>
