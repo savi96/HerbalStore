@@ -33,7 +33,6 @@ public class LoginREST extends HttpServlet {
     private void authenticate(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         
     	String email = request.getParameter("Email");
-        System.out.println(email+"REST");
         String password = request.getParameter("Password");
         AllUserLogin allUserLogin = new AllUserLogin();
         allUserLogin.setEmail(email);
